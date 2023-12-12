@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aqilah Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" 
+rel="stylesheet">
+<script src="https://kit.fontawesome.com/43a419524a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/Logo-01.png" alt="Aqilah logo"></a>
+		<div class="nav-links" id="NavLinks">
+		<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="biodata.html">BIODATA</a></li>
+			<li><a href="education.html">EDUCATION</a></li>
+			<li><a href="music.html">PLAYLIST</a></li>
+			<li><a href="connections.html">CONNECTIONS</a></li>
+			<li><a href="gallery.html">GALLERY</a></li>
+		</ul>
+		</div>
+		<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+	<h1> BIODATA </h1>
+
+	</section>
+
+<!-- Biodata section -->
+
+	<section class="me">
+	<div class="row">
+		<div class="col-1">
+		<h2>NURSYAFIQAH AQILAH BINTI ZULKEFLI</h2>
+		<p>Elo:3 welcome to my personal website !  
+			Here, you will get to know a little bit more about me including my education, my family and friends , picture gallery and my favourite playlist !
+			But first let me introduce myself , my name is Nursyafiqah Aqilah binti Zulkefli, I was born in Kuala Lumpur , i got three siblings, and i am the beautiful youngest sibling :p.
+			I am a semester 5 student taking information management in Universiti Teknologi Mara (UiTM) cawangan Kedah. 
+			I Hope in my last semester I fully enjoyed my diploma journey and got a good result ! Will do my best to pursue degree!</p>
+		<br>
+		<p>Things that I love:</p>
+		<ul>
+			<li>Watching K-Drama</li>
+			<li>Reading Novel</li>
+			<li>Watch Sunset</li>
+		</ul>
+		<br>
+		<p>Things that I dislike:</p>
+		<ul>
+			<li>Cockroaches</li>
+			<li>Seafood</li>
+			<li>Study (I'm joking obviously)</li>
+		</ul>
+		</div>
+		<div class="col-2">
+		<img src="images/self.jpg" class="profile-img">
+		<img src="images/backimage.jpg" class="back-img">
+
+		</div>
+	</div>
+	</section>
+
+<!-- Footer -->
+	<section class="footer">
+	<h4>Contact Information</h4>
+	<p>Reach me through this social media platforms</p>
+	<div class="icons">
+	<a href="https://instagram.com/n.s.qayla?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
+	<a href="https://www.tiktok.com/@lily.kirana?_t=8i4OA04g02L&_r=1" target="blank"><i class="fa-brands fa-tiktok"></i></a>
+	</div>
+	</section>
+
+<!-- Javascript to toggle menu -->
+<script>
+
+var NavLinks = document.getElementById("NavLinks");
+function showMenu(){
+	NavLinks.style.right = "0";
+}
+function hideMenu(){
+	NavLinks.style.right = "-200px";
+}
+</script>
+
+
+</body>
+</html>

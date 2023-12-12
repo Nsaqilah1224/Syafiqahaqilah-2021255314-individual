@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aqilah Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" 
+rel="stylesheet">
+<script src="https://kit.fontawesome.com/43a419524a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
+	<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/Logo-01.png" alt="Aqilah logo"></a>
+		<div class="nav-links" id="NavLinks">
+		<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="biodata.html">BIODATA</a></li>
+			<li><a href="education.html">EDUCATION</a></li>
+			<li><a href="music.html">PLAYLIST</a></li>
+			<li><a href="connections.html">CONNECTIONS</a></li>
+			<li><a href="gallery.html">GALLERY</a></li>
+		</ul>
+		</div>
+		<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+	<h1> CONNECTIONS </h1>
+	<p> Throughout my life, I have made met and made a lot of connections with other people.
+	<br>But the strongest connections I have is with my family.</p>
+
+	</section>
+
+<!-- connections section -->
+<!-- family section -->
+<section class="family">
+	<h2>Family</h2>
+	<p>Meet my family! My brother is my biggest inspiration as he always help me out with anything.</p>
+<br>
+	<div class="container2">
+	<div class="gallery">
+		<div class="img-box"><h3>Father</h3></div>
+		<div class="img-box"><h3>Mother</h3></div>
+		<div class="img-box"><h3>Brother</h3></div>
+		<div class="img-box"><h3>Sister</h3></div>
+	</div>
+	</div>
+</section>
+
+<!-- friends section -->
+<section class="friends">
+	<h2>Friends</h2>
+	<p>Hope we can be friends forever!</p>
+<br>
+	<div class="container3">
+	<div class="gallery-friends">
+
+	<a href="images/dipfriend1.jpg" data-lightbox="friend" data-title="Diploma Friends">
+	<img src="images/dipfriend1.jpg">
+	</a>
+	<a href="images/dipfriend2.jpg" data-lightbox="friend" data-title="Diploma Friends">
+	<img src="images/dipfriend2.jpg">
+	</a>
+	<a href="images/friend.jpg" data-lightbox="friend" data-title="Best Friend">
+	<img src="images/friend.jpg">
+	</a>
+	<a href="images/scfriend1.jpg" data-lightbox="friend" data-title="School Sport Festival">
+	<img src="images/scfriend1.jpg">
+	</a>
+	<a href="images/scfriend4.jpg" data-lightbox="friend" data-title="Trios">
+	<img src="images/scfriend4.jpg">
+	</a>
+	<a href="images/scfriend3.jpg" data-lightbox="friend" data-title="School Graduation Day">
+	<img src="images/scfriend3.jpg">
+	</a>
+	<a href="images/scfriend2.jpg" data-lightbox="friend" data-title="Class Picture">
+	<img src="images/scfriend2.jpg">
+	</a>
+		
+</div>
+</div>
+
+</section>
+
+<!-- Footer -->
+	<section class="footer">
+	<h4>Contact Information</h4>
+	<p>Reach me through this social media platforms</p>
+	<div class="icons">
+	<a href="https://instagram.com/n.s.qayla?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
+	<a href="https://www.tiktok.com/@lily.kirana?_t=8i4OA04g02L&_r=1" target="blank"><i class="fa-brands fa-tiktok"></i></a>
+	</div>
+	</section>
+
+<!-- Javascript to toggle menu -->
+<script>
+
+var NavLinks = document.getElementById("NavLinks");
+function showMenu(){
+	NavLinks.style.right = "0";
+}
+function hideMenu(){
+	NavLinks.style.right = "-200px";
+}
+</script>
+<script src="lightbox-plus-jquery.js"></script>
+
+
+
+</body>
+</html>

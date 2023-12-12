@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aqilah Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" 
+rel="stylesheet">
+<script src="https://kit.fontawesome.com/43a419524a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
+	<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/Logo-01.png" alt="Aqilah logo"></a>
+		<div class="nav-links" id="NavLinks">
+		<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="biodata.html">BIODATA</a></li>
+			<li><a href="education.html">EDUCATION</a></li>
+			<li><a href="music.html">PLAYLIST</a></li>
+			<li><a href="connections.html">CONNECTIONS</a></li>
+			<li><a href="gallery.html">GALLERY</a></li>
+		</ul>
+		</div>
+		<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+	<h1> GALLERY </h1>
+	<p> PICTURES! PICTURES! PICTURES!
+	<br> No amount of pictures is enough to potrayed how meaningful it is to being alive.</p>
+
+	</section>
+
+<!-- gallery section -->
+<section class="Grand">
+<br>
+	<div class="container4">
+	<div class="gallery-grand">
+
+	<a href="images/1.jpg" data-lightbox="friend" data-title="Baby Me">
+	<img src="images/1.jpg">
+	</a>
+	<a href="images/2.jpg" data-lightbox="friend" data-title="3 of us">
+	<img src="images/2.jpg">
+	</a>
+	<a href="images/3.jpg" data-lightbox="friend" data-title="my sister and I">
+	<img src="images/3.jpg">
+	</a>
+	<a href="images/4.jpg" data-lightbox="friend" data-title="Me">
+	<img src="images/4.jpg">
+	</a>
+	<a href="images/5.jpg" data-lightbox="friend" data-title="My Family">
+	<img src="images/5.jpg">
+	</a>
+	<a href="images/6.jpg" data-lightbox="friend" data-title="Emo Me">
+	<img src="images/6.jpg">
+	</a>
+	<a href="images/7.jpg" data-lightbox="friend" data-title="Me2">
+	<img src="images/7.jpg">
+	</a>
+	<a href="images/8.jpg" data-lightbox="friend" data-title="is that ME?">
+	<img src="images/8.jpg">
+	</a>
+	<a href="images/9.jpg" data-lightbox="friend" data-title="Paddy Field">
+	<img src="images/9.jpg">
+	</a>
+	<a href="images/10.jpg" data-lightbox="friend" data-title="Mirror pic 1">
+	<img src="images/10.jpg">
+	</a>
+	<a href="images/11.jpg" data-lightbox="friend" data-title="Mirror pic 2">
+	<img src="images/11.jpg">
+	</a>
+	<a href="images/12.jpg" data-lightbox="friend" data-title="Class Day">
+	<img src="images/12.jpg">
+	</a>
+	<a href="images/13.jpg" data-lightbox="friend" data-title="Co=curiculum Day">
+	<img src="images/13.jpg">
+	</a>
+	<a href="images/14.jpg" data-lightbox="friend" data-title="Looking Right">
+	<img src="images/14.jpg">
+	</a>
+	<a href="images/15.jpg" data-lightbox="friend" data-title="Looking Left">
+	<img src="images/15.jpg">
+	</a>
+	<a href="images/16.jpg" data-lightbox="friend" data-title="Night Photo">
+	<img src="images/16.jpg">
+	</a>
+</div>
+</div>
+
+</section>
+
+<!-- Footer -->
+	<section class="footer">
+	<h4>Contact Information</h4>
+	<p>Reach me through this social media platforms</p>
+	<div class="icons">
+	<a href="https://instagram.com/n.s.qayla?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
+	<a href="https://www.tiktok.com/@lily.kirana?_t=8i4OA04g02L&_r=1" target="blank"><i class="fa-brands fa-tiktok"></i></a>
+	</div>
+	</section>
+
+<!-- Javascript to toggle menu -->
+<script>
+
+var NavLinks = document.getElementById("NavLinks");
+function showMenu(){
+	NavLinks.style.right = "0";
+}
+function hideMenu(){
+	NavLinks.style.right = "-200px";
+}
+</script>
+<script src="lightbox-plus-jquery.js"></script>
+
+
+
+</body>
+</html>
